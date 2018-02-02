@@ -1,0 +1,22 @@
+RewriteEngine on
+Options -Indexes
+
+# Begin cache control #
+ExpiresActive on
+<FilesMatch "\.(bmp|png|ico|gff|jpg|jpeg|gif|gcf)$">
+FileETag MTime Size
+ExpiresDefault "now plus 60 minutes"
+</FilesMatch>
+
+# End cache control #
+
+RewriteCond %{HTTP_REFERER} !^http://m.tixac.az/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://m.tixac.az$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://tixac.az/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://tixac.az$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.m.tixac.az/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.m.tixac.az$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.tixac.az/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.tixac.az$      [NC]
+RewriteRule .*\.(jpg|jpeg|gif|png|bmp|js)$ - [F,NC]
+

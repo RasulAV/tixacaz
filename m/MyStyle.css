@@ -1,0 +1,68 @@
+       body {
+			padding: 0;
+			margin: 0;
+		}
+		
+		html, body, #map {
+			height: 100%;
+		}
+		
+	    #map {
+             background-image: url(pics/bg_logo.png);
+             background-repeat: repeat;
+        }
+
+		.evac{
+		     background-image: url('pics/evacuator.png');
+		     background-size: cover;
+             background-repeat: no-repeat;
+		
+		}
+		
+		.YPX{
+		      background-image: url('pics/road_police.png');
+		      background-size: cover;
+              background-repeat: no-repeat;
+		}
+		
+		#cluster {
+			background-color: #4071ed;
+			border-radius: 50px 50px 50px 0px;
+			padding: 3px 5px 3px 3px;
+			text-shadow: 1px 1px 3px black;
+			color:white;
+			border: 3px outset #9a9b9d;	
+			font-size: 8px;
+			position:fixed;
+            top:-25px;
+            right:-3px;
+		  }
+		  
+        #YPX {
+            margin-top: 12px;
+            margin-bottom:-3px;
+	        width:27px;
+	        height:25px;
+            }
+            
+        #Evac {
+            margin-top: 12px;
+            margin-bottom:-3px;
+	        width:28px;
+	        height:25px;
+            } 
+      
+        #Tixac {
+            margin-top: 12px;
+            margin-bottom:-3px;
+	        width:29px;
+	        height:26px;
+            }
+                
+        #ClRd {
+           
+            margin-bottom:-3px;
+	        width:20px;
+	        height:20px;
+            }   
+            

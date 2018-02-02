@@ -1,0 +1,72 @@
+[02-Sep-2013 13:10:09 Asia/Baku] PHP Warning:  require_once(./wl/TeraWurfl.php): failed to open stream: No such file or directory in /home/tixac/public_html/m/index.php on line 3
+[02-Sep-2013 13:10:09 Asia/Baku] PHP Fatal error:  require_once(): Failed opening required './wl/TeraWurfl.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tixac/public_html/m/index.php on line 3
+[02-Sep-2013 13:10:58 Asia/Baku] PHP Warning:  require_once(tixac.az/wl/TeraWurfl.php): failed to open stream: No such file or directory in /home/tixac/public_html/m/index.php on line 3
+[02-Sep-2013 13:10:58 Asia/Baku] PHP Fatal error:  require_once(): Failed opening required 'tixac.az/wl/TeraWurfl.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tixac/public_html/m/index.php on line 3
+[02-Sep-2013 13:11:36 Asia/Baku] PHP Warning:  require_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /home/tixac/public_html/m/index.php on line 3
+[02-Sep-2013 13:11:36 Asia/Baku] PHP Warning:  require_once(http://tixac.az/wl/TeraWurfl.php): failed to open stream: no suitable wrapper could be found in /home/tixac/public_html/m/index.php on line 3
+[02-Sep-2013 13:11:36 Asia/Baku] PHP Fatal error:  require_once(): Failed opening required 'http://tixac.az/wl/TeraWurfl.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/tixac/public_html/m/index.php on line 3
+[19-Nov-2014 12:33:28 Asia/Baku] PHP Fatal error:  Uncaught exception 'TeraWurflDatabaseException' with message 'Cannot connect to database: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/tixac/public_html/wl/TeraWurfl.php:161
+Stack trace:
+#0 /home/tixac/public_html/m/index.php(6): TeraWurfl->__construct()
+#1 {main}
+  thrown in /home/tixac/public_html/wl/TeraWurfl.php on line 161
+[05-Feb-2015 08:50:49 Asia/Baku] PHP Fatal error:  Uncaught exception 'TeraWurflDatabaseException' with message 'Cannot connect to database: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/tixac/public_html/wl/TeraWurfl.php:161
+Stack trace:
+#0 /home/tixac/public_html/m/index.php(6): TeraWurfl->__construct()
+#1 {main}
+  thrown in /home/tixac/public_html/wl/TeraWurfl.php on line 161
+[05-Feb-2015 09:59:19 Asia/Baku] PHP Fatal error:  Uncaught exception 'TeraWurflDatabaseException' with message 'Cannot connect to database: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/tixac/public_html/wl/TeraWurfl.php:161
+Stack trace:
+#0 /home/tixac/public_html/m/index.php(6): TeraWurfl->__construct()
+#1 {main}
+  thrown in /home/tixac/public_html/wl/TeraWurfl.php on line 161
+[05-Feb-2015 11:23:01 Asia/Baku] PHP Fatal error:  Uncaught exception 'TeraWurflDatabaseException' with message 'Cannot connect to database: Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2)' in /home/tixac/public_html/wl/TeraWurfl.php:161
+Stack trace:
+#0 /home/tixac/public_html/m/index.php(6): TeraWurfl->__construct()
+#1 {main}
+  thrown in /home/tixac/public_html/wl/TeraWurfl.php on line 161
+[23-May-2015 01:42:50 UTC] PHP Fatal error:  Uncaught exception 'TeraWurflDatabaseException' with message 'Cannot connect to database: Access denied for user 'tixac_ur'@'localhost' (using password: YES)' in /home/navtel/public_html/tixac.az/wl/TeraWurfl.php:161
+Stack trace:
+#0 /home/navtel/public_html/tixac.az/m/index.php(6): TeraWurfl->__construct()
+#1 {main}
+  thrown in /home/navtel/public_html/tixac.az/wl/TeraWurfl.php on line 161
+[25-May-2015 20:21:02 UTC] PHP Fatal error:  Uncaught exception 'TeraWurflDatabaseException' with message 'Cannot connect to database: Access denied for user 'tixac_ur'@'localhost' (using password: YES)' in /home/navtel/public_html/tixac.az/wl/TeraWurfl.php:161
+Stack trace:
+#0 /home/navtel/public_html/tixac.az/m/index.php(6): TeraWurfl->__construct()
+#1 {main}
+  thrown in /home/navtel/public_html/tixac.az/wl/TeraWurfl.php on line 161
+[28-May-2015 01:10:14 UTC] PHP Fatal error:  Uncaught exception 'TeraWurflDatabaseException' with message 'Cannot connect to database: Access denied for user 'tixac_ur'@'localhost' (using password: YES)' in /home/navtel/public_html/tixac.az/wl/TeraWurfl.php:161
+Stack trace:
+#0 /home/navtel/public_html/tixac.az/m/index.php(6): TeraWurfl->__construct()
+#1 {main}
+  thrown in /home/navtel/public_html/tixac.az/wl/TeraWurfl.php on line 161
+[30-May-2015 10:39:04 UTC] PHP Fatal error:  Uncaught exception 'TeraWurflDatabaseException' with message 'Cannot connect to database: Access denied for user 'tixac_ur'@'localhost' (using password: YES)' in /home/navtel/public_html/tixac.az/wl/TeraWurfl.php:161
+Stack trace:
+#0 /home/navtel/public_html/tixac.az/m/index.php(6): TeraWurfl->__construct()
+#1 {main}
+  thrown in /home/navtel/public_html/tixac.az/wl/TeraWurfl.php on line 161
+[21-Jun-2015 12:02:57 UTC] PHP Fatal error:  Uncaught exception 'TeraWurflDatabaseException' with message 'Cannot connect to database: Access denied for user 'tixac_ur'@'localhost' (using password: YES)' in /home/navtel/public_html/tixac.az/wl/TeraWurfl.php:161
+Stack trace:
+#0 /home/navtel/public_html/tixac.az/m/index.php(6): TeraWurfl->__construct()
+#1 {main}
+  thrown in /home/navtel/public_html/tixac.az/wl/TeraWurfl.php on line 161
+[23-Jul-2015 09:32:41 UTC] PHP Fatal error:  Uncaught exception 'TeraWurflDatabaseException' with message 'Cannot connect to database: Access denied for user 'tixac_ur'@'localhost' (using password: YES)' in /home/navtel/public_html/tixac.az/wl/TeraWurfl.php:161
+Stack trace:
+#0 /home/navtel/public_html/tixac.az/m/index.php(6): TeraWurfl->__construct()
+#1 {main}
+  thrown in /home/navtel/public_html/tixac.az/wl/TeraWurfl.php on line 161
+[05-Aug-2015 12:40:28 UTC] PHP Fatal error:  Uncaught exception 'TeraWurflDatabaseException' with message 'Cannot connect to database: Access denied for user 'tixac_ur'@'localhost' (using password: YES)' in /home/navtel/public_html/tixac.az/wl/TeraWurfl.php:161
+Stack trace:
+#0 /home/navtel/public_html/tixac.az/m/index.php(6): TeraWurfl->__construct()
+#1 {main}
+  thrown in /home/navtel/public_html/tixac.az/wl/TeraWurfl.php on line 161
+[18-Aug-2015 08:10:53 UTC] PHP Fatal error:  Uncaught exception 'TeraWurflDatabaseException' with message 'Cannot connect to database: Access denied for user 'tixac_ur'@'localhost' (using password: YES)' in /home/navtel/public_html/tixac.az/wl/TeraWurfl.php:161
+Stack trace:
+#0 /home/navtel/public_html/tixac.az/m/index.php(6): TeraWurfl->__construct()
+#1 {main}
+  thrown in /home/navtel/public_html/tixac.az/wl/TeraWurfl.php on line 161
+[06-Oct-2015 09:42:32 UTC] PHP Fatal error:  Uncaught exception 'TeraWurflDatabaseException' with message 'Cannot connect to database: Access denied for user 'tixac_ur'@'localhost' (using password: YES)' in /home/navtel/public_html/tixac.az/wl/TeraWurfl.php:161
+Stack trace:
+#0 /home/navtel/public_html/tixac.az/m/index.php(6): TeraWurfl->__construct()
+#1 {main}
+  thrown in /home/navtel/public_html/tixac.az/wl/TeraWurfl.php on line 161
